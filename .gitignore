@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Environment — nunca versionar o .env com chaves reais
+.env
+.env.local
+.env.*.local
+
+# EAS Build
+android/
+ios/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+*.orig
+*.log

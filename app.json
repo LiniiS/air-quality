@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "AirQuality",
+    "slug": "ar-agora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#DEF3F6"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aragora.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "O AirQuality usa sua localização para monitorar a qualidade do ar na sua região."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#DEF3F6"
+      },
+      "package": "com.aragora.app",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O AirQuality usa sua localização para monitorar a qualidade do ar na sua região."
+        }
+      ]
+    ]
+  }
+}

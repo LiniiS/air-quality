@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"c:/dev/_usp/ihc/node_modules/react-native-reanimated/plugin.js\")",
+      "Bash(node -e \"const r = require\\('./node_modules/react-native-reanimated'\\); console.log\\('interpolateColor:', typeof r.interpolateColor\\);\")",
+      "Bash(node -e \"const p=require\\('./node_modules/react-native-reanimated/package.json'\\); console.log\\(JSON.stringify\\(p.dependencies,null,2\\)\\)\")",
+      "PowerShell(cd \"c:/dev/_usp/ihc\"; Get-ChildItem -Force | Select-Object Name, Mode | Where-Object { $_.Name -notmatch \"node_modules\" })"
+    ]
+  }
+}

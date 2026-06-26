@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <!-- Limita a nuvem menor ao seu bounding box para borda inferior plana -->
+    <clipPath id="clipSmall">
+      <rect x="98" y="548" width="432" height="274"/>
+    </clipPath>
+    <!-- Limita a nuvem maior ao seu bounding box -->
+    <clipPath id="clipLarge">
+      <rect x="198" y="208" width="748" height="374"/>
+    </clipPath>
+  </defs>
+
+  <!-- Nuvem menor (azul bem claro, atrás, canto inferior esquerdo) -->
+  <g clip-path="url(#clipSmall)" fill="#B8E8F5">
+    <circle cx="214" cy="694" r="106"/>
+    <circle cx="330" cy="654" r="101"/>
+    <circle cx="432" cy="682" r="89"/>
+    <rect x="108" y="670" width="423" height="152"/>
+  </g>
+
+  <!-- Nuvem maior (azul médio, frente, porção superior) -->
+  <g clip-path="url(#clipLarge)" fill="#62C1E5">
+    <circle cx="334" cy="444" r="126"/>
+    <circle cx="480" cy="390" r="153"/>
+    <circle cx="652" cy="380" r="159"/>
+    <circle cx="812" cy="430" r="129"/>
+    <rect x="208" y="424" width="734" height="158"/>
+  </g>
+</svg>
