@@ -53,6 +53,12 @@ O aplicativo foi desenvolvido em **React Native (Expo)**, utilizando os princíp
 
 ---
 
+## 🎬 Demonstração
+
+[![Demonstração do App](https://img.youtube.com/vi/s61Ino9Ayfk/0.jpg)](https://youtube.com/shorts/s61Ino9Ayfk)
+
+---
+
 ## 🏗️ Arquitetura
 
 O projeto segue os princípios de **Clean Architecture**, separando responsabilidades em três camadas independentes:
