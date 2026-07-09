@@ -184,6 +184,8 @@ O link de download do `.apk` é gerado ao final do build.
 |---|---|
 | [`docs/FEATURES.md`](docs/FEATURES.md) | Descrição detalhada de cada funcionalidade e índices utilizados |
 | [`docs/PROMPTS.md`](docs/PROMPTS.md) | Registro dos prompts e iterações de refinamento com IA generativa |
+| [`docs/UI_PROTOTYPE_PROMPTS.md`](docs/UI_PROTOTYPE_PROMPTS.md) | Prompts utilizados no Claude Design para geração do protótipo visual de UI |
+| [`docs/AirQuality.html`](docs/AirQuality.html) | Protótipo visual interativo (4 telas: Loading, Dashboard, Previsão, Erro) gerado com Claude Design |
 
 ---
 
