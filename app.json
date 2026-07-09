@@ -36,6 +36,11 @@
           "locationWhenInUsePermission": "O AirQuality usa sua localização para monitorar a qualidade do ar na sua região."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "824efd9e-ac89-46f4-a39b-1feccdf3791f"
+      }
+    }
   }
 }
