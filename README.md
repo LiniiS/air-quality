@@ -188,6 +188,7 @@ O link de download do `.apk` é gerado ao final do build.
 
 | Arquivo | Conteúdo |
 |---|---|
+| [Documento do Projeto (Google Drive)](https://drive.google.com/file/d/1X0wkZ7dWkMESy6M2j4WfA4woHTyBuimv/view?usp=sharing) | Documento acadêmico completo do Trabalho Final de IHC/IHD |
 | [`docs/FEATURES.md`](docs/FEATURES.md) | Descrição detalhada de cada funcionalidade e índices utilizados |
 | [`docs/PROMPTS.md`](docs/PROMPTS.md) | Registro dos prompts e iterações de refinamento com IA generativa |
 | [`docs/UI_PROTOTYPE_PROMPTS.md`](docs/UI_PROTOTYPE_PROMPTS.md) | Prompts utilizados no Claude Design para geração do protótipo visual de UI |
