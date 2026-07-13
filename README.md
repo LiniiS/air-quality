@@ -192,6 +192,7 @@ O link de download do `.apk` é gerado ao final do build.
 | [`docs/PROMPTS.md`](docs/PROMPTS.md) | Registro dos prompts e iterações de refinamento com IA generativa |
 | [`docs/UI_PROTOTYPE_PROMPTS.md`](docs/UI_PROTOTYPE_PROMPTS.md) | Prompts utilizados no Claude Design para geração do protótipo visual de UI |
 | [`docs/AirQuality.html`](docs/AirQuality.html) | Protótipo visual interativo (4 telas: Loading, Dashboard, Previsão, Erro) gerado com Claude Design |
+| [`docs/ACCESSIBILITY_AUDIT.md`](docs/ACCESSIBILITY_AUDIT.md) | Auditoria de acessibilidade com Google Accessibility Scanner — débitos técnicos e análise crítica sobre os limites da geração por IA |
 
 ---
 
